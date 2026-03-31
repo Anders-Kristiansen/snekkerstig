@@ -1,6 +1,6 @@
 # Snekkerstig AS — Static Site
 
-Static website for **Snekkerstig AS** – Totalentreprenør ([snekkerstig.com](http://www.snekkerstig.com)).
+Static website for **Snekkerstig AS** – Totalentreprenør ([anders-kristiansen.github.io/snekkerstig](https://anders-kristiansen.github.io/snekkerstig)).
 
 Built with [Jekyll](https://jekyllrb.com/) and deployed to GitHub Pages via GitHub Actions.
 
