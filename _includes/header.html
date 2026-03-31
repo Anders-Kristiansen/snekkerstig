@@ -1,0 +1,16 @@
+<header class="site-header" role="banner">
+  <nav class="nav-container" aria-label="Hovednavigasjon">
+    <a class="nav-logo" href="{{ site.baseurl }}/">Snekkerstig<span> AS</span></a>
+    <button class="nav-toggle" aria-label="Åpne meny" aria-expanded="false" aria-controls="nav-menu">
+      <span class="hamburger"></span>
+    </button>
+    <ul class="nav-menu" id="nav-menu" role="list">
+      <li><a href="{{ site.baseurl }}/"{% if page.url == "/" %} aria-current="page"{% endif %}>Hjem</a></li>
+      <li><a href="{{ site.baseurl }}/tjenester"{% if page.url contains "/tjenester" %} aria-current="page"{% endif %}>Tjenester</a></li>
+      <li><a href="{{ site.baseurl }}/portefolje"{% if page.url contains "/portefolje" %} aria-current="page"{% endif %}>Portefølje</a></li>
+      <li><a href="{{ site.baseurl }}/galleri"{% if page.url contains "/galleri" %} aria-current="page"{% endif %}>Galleri</a></li>
+      <li><a href="{{ site.baseurl }}/om-oss"{% if page.url contains "/om-oss" %} aria-current="page"{% endif %}>Om oss</a></li>
+      <li><a href="{{ site.baseurl }}/kontakt" class="nav-cta">Gratis befaring</a></li>
+    </ul>
+  </nav>
+</header>

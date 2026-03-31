@@ -1,0 +1,44 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Snekkerstig AS</h3>
+        <p>Totalentreprenør med masse gode referanser siden 2013. Vi leverer kvalitetsarbeid innen snekker- og byggfaget til private og næringskunder.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tjenester</h4>
+        <ul>
+          <li><a href="{{ site.baseurl }}/tjenester">Baderomsløsning</a></li>
+          <li><a href="{{ site.baseurl }}/tjenester">Oppussing</a></li>
+          <li><a href="{{ site.baseurl }}/tjenester">Totalrenovering</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Lenker</h4>
+        <ul>
+          <li><a href="{{ site.baseurl }}/om-oss">Om oss</a></li>
+          <li><a href="{{ site.baseurl }}/portefolje">Portefølje</a></li>
+          <li><a href="{{ site.baseurl }}/galleri">Galleri</a></li>
+          <li><a href="{{ site.baseurl }}/kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Snekkerstig AS. Alle rettigheter forbeholdes.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var toggle = document.querySelector('.nav-toggle');
+    var menu = document.getElementById('nav-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', function () {
+        var open = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open.toString());
+        toggle.setAttribute('aria-label', open ? 'Lukk meny' : 'Åpne meny');
+      });
+    }
+  })();
+</script>

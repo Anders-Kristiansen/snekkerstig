@@ -1,0 +1,31 @@
+title: Snekkerstig AS
+description: Totalentreprenør
+url: "https://snekkerstig.github.io"
+baseurl: ""
+lang: nb
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .squad
+  - .copilot
+  - .vscode
+  - node_modules
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+permalink: /:title/
