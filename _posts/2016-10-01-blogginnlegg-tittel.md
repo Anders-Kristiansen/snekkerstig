@@ -5,7 +5,7 @@ date: 2016-10-01
 description: Et eksempel på et blogginnlegg fra Snekkerstig AS om våre tjenester og erfaringer.
 ---
 
-![Snekkerstig prosjekt](http://www.snekkerstig.com/wp-content/uploads/2016/10/gallery-6-1600x900.jpg)
+![Snekkerstig prosjekt]({{ site.baseurl }}/assets/images/gallery-6.jpg)
 
 Dette er et eksempel på et blogginnlegg fra Snekkerstig AS. Her kan vi dele erfaringer, faglige tips og oppdateringer om pågående prosjekter.
 

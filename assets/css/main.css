@@ -1,3 +1,5 @@
+---
+---
 /* ===========================
    CSS Custom Properties
    =========================== */
@@ -280,7 +282,7 @@ p:last-child { margin-bottom: 0; }
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url('http://www.snekkerstig.com/wp-content/uploads/2016/10/b33b160ed8f4eeac0daf05d4f39dc8fc064f683f316511babd3180e8e4f8549d-oov6vj.jpeg');
+  background-image: url('{{ site.baseurl }}/assets/images/hero-bg.jpeg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

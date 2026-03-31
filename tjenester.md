@@ -18,7 +18,7 @@ description: Vi tilbyr et bredt spekter av byggetjenester av høy kvalitet
           <li>Nedforede himlinger og skillevegger</li>
         </ul>
       </div>
-      <img src="http://www.snekkerstig.com/wp-content/uploads/2016/10/services-2.jpg" alt="Oppussing" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/images/services-2.jpg" alt="Oppussing" loading="lazy">
     </div>
   </div>
 </section>
@@ -37,7 +37,7 @@ description: Vi tilbyr et bredt spekter av byggetjenester av høy kvalitet
           <li>Våtromssertifisert arbeid</li>
         </ul>
       </div>
-      <img src="http://www.snekkerstig.com/wp-content/uploads/2016/10/home-2.jpg" alt="Baderomsløsning" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/images/home-2.jpg" alt="Baderomsløsning" loading="lazy">
     </div>
   </div>
 </section>
@@ -56,7 +56,7 @@ description: Vi tilbyr et bredt spekter av byggetjenester av høy kvalitet
           <li>Dokumentasjon og sluttbefaring</li>
         </ul>
       </div>
-      <img src="http://www.snekkerstig.com/wp-content/uploads/2016/10/home-3.jpg" alt="Totalrenovering" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/images/home-3.jpg" alt="Totalrenovering" loading="lazy">
     </div>
   </div>
 </section>

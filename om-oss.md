@@ -14,7 +14,7 @@ description: Vår historie og hvem vi er hos Snekkerstig AS
         <p>Vi er stolt av det vi gjør og setter alltid kundens behov i sentrum – fra første befaring til arbeidet er ferdig og godkjent.</p>
         <a href="{{ site.baseurl }}/kontakt" class="btn btn-primary">Ta kontakt</a>
       </div>
-      <img src="http://www.snekkerstig.com/wp-content/uploads/2016/10/about-us-1.jpg" alt="Snekkerstig AS team" loading="lazy">
+      <img src="{{ site.baseurl }}/assets/images/about-us-1.jpg" alt="Snekkerstig AS team" loading="lazy">
     </div>
   </div>
 </section>
